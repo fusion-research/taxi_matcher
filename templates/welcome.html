@@ -1,0 +1,371 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Taxi Matcher</title>
+
+    <meta name="description" content="Please use the form below to contact me if you have any questions. I will try my best to respond within 24 hours!" />
+        <meta name="keywords" content="contact, Youyang Gu, Youyang, Gu, youyanggu, class of 2011, web design, website, professional web design, wilky web design, web development" />
+        <link rel="favicon" href="favicon.ico" type="image/x-icon" />
+
+        <style type="text/css">
+       
+@font-face {
+	font-family:font;
+	src:local('font'),url(http://youyanggu.com/font.woff) format('woff'),url(http://youyanggu.com/font.ttf) format('truetype'),url(http://youyanggu.com/font.svg#webfontkNnb6AX2) format('svg');
+	font-weight:normal;
+	font-style:normal;
+}
+		
+body {
+	background:#FFFFFF url(http://youyanggu.com/images/bg.jpg) no-repeat center 0;
+	color:#333333;
+	font:76% Arial,Georgia,Verdana,Tahoma,sans-serif;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+
+p {
+	font-size:medium;
+	line-height:1.3em;
+	text-align:justify;
+}
+
+p.title {
+	font-weight:normal;
+	font-style:normal;
+	line-height:normal;
+	font-family:font,sans-serif;
+	color:#BB0000;
+	font-size:32px;
+	margin:10px 0 0 10px;
+	text-decoration:underline;
+	text-align:center;
+}
+
+p.content {
+	font-size:medium;
+}
+
+p.heading {
+	font-size:18px;
+	color:#666666;
+}
+
+a {
+	color:#0066FF;
+	font-weight:700;
+	text-decoration:none;
+	font-size:medium;
+}
+
+a:hover{
+	color:#000099;
+}
+
+#container {
+	background: url(http://youyanggu.com/images/bg.gif) repeat-x;
+	text-align:left;
+	margin-left: auto;
+	margin-right: auto;
+	width: 910px;
+}
+
+#wrapper {
+	float:left;
+}
+
+#header {
+	background: url(http://i.imgur.com/v1SNt.png) repeat-x;
+	height: 110px;
+	display: block;
+	width: 900px;
+}
+
+#logo{
+	position: fixed;
+}
+
+#main {
+	width:910px;
+	background: url(http://youyanggu.com/images/side.png) repeat-y;
+	min-height:550px;
+	height:auto !important;
+	height:550px;
+}
+
+#menu{
+	height: 35px;
+	width: 900px;
+	float: left;
+	padding-top:95px;
+}
+
+#menu a{
+	color: #fff;
+	text-decoration: none;
+}
+
+#menu ul.menu{
+	float: left;
+	padding-left: 0px;
+	padding-bottom: 0px;
+}
+
+#menu ul.links li{
+	float: right;
+	display: block;
+	padding: 0px;
+}
+
+#menu ul.links li a{
+	float: left;
+	display: block;
+	height: 30px;
+	padding-top:5px;
+	padding-left: 13px;
+	padding-right: 13px;
+	font: normal 20px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #fff;
+	text-transform: lowercase;
+}
+
+#menu ul.links li a:hover{
+	background: url(http://youyanggu.com/images/menu-bg.gif) 0 -35px;
+}
+
+#menu ul.links li a.active{
+	background: url(http://youyanggu.com/images/menu-bg.gif) 0 -105px;
+}
+
+#menu ul.links li a:active{
+	background: url(http://youyanggu.com/images/menu-bg.gif) 0 -35px;
+}
+
+#spacer {
+	height:20px;
+}
+
+#curve {
+	background: url(http://youyanggu.com/images/curve.png) no-repeat;
+	width:910px;
+	height:83px;
+
+}
+
+#container-strip {
+	padding-top:130px;
+	height:230px;
+}
+
+#strip {
+	height:230px;
+	background: #000099 url(http://youyanggu.com/images/strip.jpg) no-repeat;
+}
+
+
+#content {
+	width:800px;
+	padding:10px 50px 35px 50px;
+}
+
+#box {
+	background: url(http://youyanggu.com/images/box.png) no-repeat;
+	height: 231px;
+	padding: 5px 15px 15px 0;
+	width: 370px;
+	float: left;
+	margin-top: 10px;
+}
+
+#box h2 {
+	padding-left:30px;
+}
+
+#bg_end {
+	height:9px;
+	width:910px;
+	background:url(http://youyanggu.com/images/bottom.png) no-repeat;
+	position:relative;
+}
+
+#footer { 
+	clear:both;
+	color:#808080;
+	margin: 0;
+	padding: 0 0 10px 30px;
+}
+
+#footer p {
+	font-size:1em;
+}
+
+#footer a { 
+	text-decoration: none; 
+	font-weight: bold;	
+	color:#808080;
+	font-size:1em;
+}
+
+#footer a:hover {
+	text-decoration:underline;
+}
+
+#footer .footer-left{
+	float: left;
+	width: 65%;
+}
+#footer .footer-right{
+	float: right;
+	width: 14%;
+}
+
+img {
+  	border: 0;
+  	padding: 10px 10px 10px 10px;
+  	behavior: url(http://youyanggu.com/images/iepngfix.htc)
+}
+
+ul.menu {
+  list-style: none;
+  border: none;
+  text-align:left;
+}
+ul.menu li {
+  margin: 0 0 0 0.5em;
+}
+li a.active {
+  color: #000;
+}
+td.menu-disabled {
+  background: #ccc;
+}
+ul.links {
+  margin: 0;
+  padding: 0;
+}
+ul.links.inline {
+  display: inline;
+}
+ul.links li {
+  display: inline;
+  list-style-type: none;
+  padding: 0 0.5em;
+}
+.block ul {
+  margin: 0;
+  padding: 0 0 0.25em 1em;
+}
+
+#content ul li{
+	display:block;
+	background:url(http://youyanggu.com/images/arrow.gif) 0 6px no-repeat #fff;
+	margin:0 0 11px 0;
+	padding-left:30px;
+	line-height:1.1em;
+	font-size:medium;
+}
+
+.transparent {
+	behavior: url(http://youyanggu.com/images/iepngfix.htc)
+} 
+</style>
+
+        <link type="text/css" rel="stylesheet" media="all" href="style.css" />
+
+        <!--[if lte IE 6]>
+    <link type="text/css" rel="stylesheet" media="all" href="iefix.css" />
+        <![endif]-->
+
+  </head>
+
+<body>
+    
+    <div id ="container">
+    <div id="wrapper">
+    <div id="header">
+        <div id="logo">
+            <a href="http://youyanggu.com" title="Home"><img src="http://youyanggu.com/images/clear.png" alt="Home" /></a>
+        </div>
+    <div id="menu">
+        <ul class="links primary-links">
+            <li class="menu"><a href="/" title="Contact" class="active">Taxi Match</a></li>
+                </ul>
+  </div>
+    </div>
+
+        <div id="spacer"></div>
+
+    <div id="main">
+
+    <div id="curve"></div>
+
+    <div id="content">
+
+        <p class="title">Taxi Matcher</p>
+
+        
+        <img src="http://www.gotagotaxi.com/img_taxi[1].jpg" alt="question" style="float:right; width:353px; height:287px;" />
+
+        <p class="content">Please enter the info below:</p>
+    {% if error %}
+        <p style="color:red;">Please submit a search term.</p>
+    {% endif %}
+    <div id="form" style="line-height:1.5em; padding-left:20px; font-size:medium;">
+    <form action="../search/" method="post">
+        Name: <input type="text" name="name" /><br />
+        Destination: <input type="radio" name="dest" value="MIT" />MIT
+        <input type="radio" name="dest" value="Logan" />Logan<br />
+        Date (YYYY-MM-DD): <input type="text" name="date" /><br />
+        From Time (HH:MM): <input type="text" name="time1" /><br />
+        To Time (HH:MM): <input type="text" name="time2" /><br />
+        Course: <input type="text" name="course" /><br />
+        Living Group: <input type="text" name="liv_group" /><br />
+        Phone: <input type="text" name="phone" /><br />
+        Email: <input type="email" name="email" /><br />
+        <input type="submit" value="Search" />
+    </form>
+    {% if match %}
+        <p style="color:green;">Congrats. You have {{ count }} match(es):</p>
+        <ul>
+        {% for l in d %}
+            <li>{{ l.name }}, Course: {{ l.course }}, Living Group: {{ l.liv_group }}, 
+Phone: {{ l.phone }}, Email: {{ l.email }}</li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        {% if submit %}
+            <p style="color:red">Sorry {{ name }}, we have no match for you. We will email you if a match arrives.</p>
+        {% endif %}
+    {% endif %}
+    </div>
+
+    </div>
+
+    </div>
+
+    <div id="bg_end"></div>
+
+    <div id="footer">
+        <div class="footer-left">
+                <p>
+                © 2008-2010 <a href="http://youyanggu.com">Youyang Gu</a> |
+                Valid <a href="http://validator.w3.org/check/referer">XHTML</a> |
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>
+                </p>
+        </div>
+        <div class="footer-right">
+                <p>
+                <a href="index.html">Home</a> &nbsp;|&nbsp;
+                <a href="contact.html">Contact</a>
+                </p>
+        </div>
+  </div>
+
+  </div>
+  </div>
+
+</body>
+
+</html>
