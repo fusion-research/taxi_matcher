@@ -6,8 +6,8 @@ def hello(request):
     return HttpResponse("Hello World")
 
 #def taxi(request):
-#    name = Person(name='youyang', dest='MIT', date = '2012-02-12', course='6',\
-#liv_group='maseeh', email='yygu@mit.edu', phone='6506699222').name
+#    name = Person(name='###', dest='###', date = '2012-02-12', course='6',\
+#liv_group='###', email='###', phone='###').name
 #    return render_to_response('welcome.html',locals())
 
 def display_meta(request):
