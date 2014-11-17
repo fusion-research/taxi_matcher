@@ -6,7 +6,7 @@ DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-    ('yygu', 'yygu@mit.edu'),
+    ('yygu', '###@mit.edu'),
 )
 
 MANAGERS = ADMINS
@@ -14,9 +14,9 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'yygu+site',
-        'USER': 'yygu',
-        'PASSWORD': 'Neopets22',
+        'NAME': '+site',
+        'USER': '',
+        'PASSWORD': '',
         'HOST': 'sql.mit.edu',
         'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
     }
